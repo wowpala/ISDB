@@ -40,3 +40,7 @@ payload:
 
 # Devv
    - DOMAIN-SUFFIX,devv.ai
+
+# Elmo
+   - DOMAIN-SUFFIX,elmo.chat
+   
