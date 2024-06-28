@@ -41,6 +41,6 @@ payload:
 # Devv
    - DOMAIN-SUFFIX,devv.ai
 
-# Elmo
+# Others
    - DOMAIN-SUFFIX,elmo.chat
-   
+   - DOMAIN-SUFFIX,thinkany.ai
