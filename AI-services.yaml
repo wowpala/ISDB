@@ -38,9 +38,8 @@ payload:
 # HuggingFace
    - DOMAIN-SUFFIX,huggingface.co
 
-# Devv
-   - DOMAIN-SUFFIX,devv.ai
-
 # Others
    - DOMAIN-SUFFIX,elmo.chat
    - DOMAIN-SUFFIX,thinkany.ai
+   - DOMAIN-SUFFIX,mistral.ai
+   - DOMAIN-SUFFIX,devv.ai
