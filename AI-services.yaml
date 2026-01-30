@@ -1,16 +1,158 @@
 # NAME: AI-Services
-# UPDATED: 2024-08-28
+# UPDATED: 2025-01-30
 
 payload:
-# Claude
-    - DOMAIN,cdn.usefathom.com
-    - DOMAIN-SUFFIX,anthropic.com
-    - DOMAIN-SUFFIX,claude.ai
+# OpenAI / ChatGPT
+   - DOMAIN-SUFFIX,openai.com
+   - DOMAIN-SUFFIX,chatgpt.com
+   - DOMAIN-SUFFIX,oaistatic.com
+   - DOMAIN-SUFFIX,oaiusercontent.com
+   - DOMAIN-SUFFIX,sora.com
 
-# CiciAI
+# Claude / Anthropic
+   - DOMAIN,cdn.usefathom.com
+   - DOMAIN-SUFFIX,anthropic.com
+   - DOMAIN-SUFFIX,claude.ai
+   - DOMAIN-SUFFIX,claude.com
+
+# Google AI (Gemini / DeepMind)
+   - DOMAIN-SUFFIX,gemini.google.com
+   - DOMAIN-SUFFIX,aistudio.google.com
+   - DOMAIN-SUFFIX,makersuite.google.com
+   - DOMAIN-SUFFIX,deepmind.com
+   - DOMAIN-SUFFIX,deepmind.google
+   - DOMAIN-SUFFIX,generativelanguage.googleapis.com
+
+# Microsoft Copilot
+   - DOMAIN-SUFFIX,copilot.microsoft.com
+   - DOMAIN-SUFFIX,bing.com
+   - DOMAIN-SUFFIX,bingapis.com
+
+# xAI (Grok)
+   - DOMAIN-SUFFIX,x.ai
+   - DOMAIN-SUFFIX,grok.x.ai
+
+# Meta AI
+   - DOMAIN-SUFFIX,meta.ai
+   - DOMAIN-SUFFIX,llama.meta.com
+
+# Perplexity
+   - DOMAIN-SUFFIX,perplexity.ai
+
+# Mistral AI
+   - DOMAIN-SUFFIX,mistral.ai
+   - DOMAIN-SUFFIX,chat.mistral.ai
+
+# Cohere
+   - DOMAIN-SUFFIX,cohere.ai
+   - DOMAIN-SUFFIX,cohere.com
+
+# Groq
+   - DOMAIN-SUFFIX,groq.com
+
+# Together AI
+   - DOMAIN-SUFFIX,together.ai
+   - DOMAIN-SUFFIX,together.xyz
+
+# Fireworks AI
+   - DOMAIN-SUFFIX,fireworks.ai
+
+# Replicate
+   - DOMAIN-SUFFIX,replicate.com
+   - DOMAIN-SUFFIX,replicate.delivery
+
+# HuggingFace
+   - DOMAIN-SUFFIX,huggingface.co
+   - DOMAIN-SUFFIX,hf.co
+
+# Stability AI
+   - DOMAIN-SUFFIX,stability.ai
+   - DOMAIN-SUFFIX,dreamstudio.ai
+
+# Midjourney
+   - DOMAIN-SUFFIX,midjourney.com
+
+# Leonardo AI
+   - DOMAIN-SUFFIX,leonardo.ai
+
+# Ideogram
+   - DOMAIN-SUFFIX,ideogram.ai
+
+# Runway
+   - DOMAIN-SUFFIX,runwayml.com
+   - DOMAIN-SUFFIX,runway.com
+
+# Pika Labs
+   - DOMAIN-SUFFIX,pika.art
+
+# Luma AI
+   - DOMAIN-SUFFIX,lumalabs.ai
+
+# Suno (AI Music)
+   - DOMAIN-SUFFIX,suno.ai
+   - DOMAIN-SUFFIX,suno.com
+
+# Udio (AI Music)
+   - DOMAIN-SUFFIX,udio.com
+
+# ElevenLabs (Voice AI)
+   - DOMAIN-SUFFIX,elevenlabs.io
+
+# HeyGen (Video AI)
+   - DOMAIN-SUFFIX,heygen.com
+
+# D-ID
+   - DOMAIN-SUFFIX,d-id.com
+
+# Synthesia
+   - DOMAIN-SUFFIX,synthesia.io
+
+# Character AI
+   - DOMAIN-SUFFIX,character.ai
+
+# Inflection AI (Pi)
+   - DOMAIN-SUFFIX,inflection.ai
+   - DOMAIN-SUFFIX,pi.ai
+
+# Poe
+   - DOMAIN-SUFFIX,poe.com
+
+# You.com
+   - DOMAIN-SUFFIX,you.com
+
+# Cursor (AI Code Editor)
+   - DOMAIN-SUFFIX,cursor.com
+   - DOMAIN-SUFFIX,cursor.sh
+
+# GitHub Copilot
+   - DOMAIN-SUFFIX,githubcopilot.com
+   - DOMAIN-SUFFIX,copilot.github.com
+
+# Vercel AI
+   - DOMAIN-SUFFIX,v0.dev
+   - DOMAIN-SUFFIX,sdk.vercel.ai
+
+# Jasper AI
+   - DOMAIN-SUFFIX,jasper.ai
+
+# Copy.ai
+   - DOMAIN-SUFFIX,copy.ai
+
+# Notion AI
+   - DOMAIN-SUFFIX,notion.so
+   - DOMAIN-SUFFIX,notion.site
+
+# Adobe Firefly
+   - DOMAIN-SUFFIX,adobe.com
+   - DOMAIN-SUFFIX,adobe.io
+   - DOMAIN-SUFFIX,firefly.adobe.com
+
+# CiciAI / Coze (ByteDance Overseas)
    - DOMAIN-KEYWORD,ciciai
    - DOMAIN-KEYWORD,byteoversea
    - DOMAIN-SUFFIX,ciciai.com
+   - DOMAIN-SUFFIX,anygen.io
+   - DOMAIN-SUFFIX,coze.com
    - DOMAIN-SUFFIX,vcs-sg.byteoversea.com
    - DOMAIN-SUFFIX,vmweb-va.ciciai.com
    - DOMAIN-SUFFIX,mcs-va.ciciai.com
@@ -20,26 +162,17 @@ payload:
    - DOMAIN-SUFFIX,abtestvm-sg.bytedance.com
    - DOMAIN-SUFFIX,starling-oversea.byteoversea.com
    - DOMAIN-SUFFIX,sf16-tcc-tos-sg.byteoversea.com
-   - DOMAIN-SUFFIX,coze.com
-
-# Perplexity
-    - DOMAIN-SUFFIX,perplexity.ai
-
-# Cohere
-   - DOMAIN-SUFFIX,cohere.ai
-
-# Groq
-   - DOMAIN-SUFFIX,groq.com
-
-# Adobe
-   - DOMAIN-SUFFIX,adobe.com
-   - DOMAIN-SUFFIX,adobe.io
-
-# HuggingFace
-   - DOMAIN-SUFFIX,huggingface.co
 
 # Others
    - DOMAIN-SUFFIX,elmo.chat
    - DOMAIN-SUFFIX,thinkany.ai
-   - DOMAIN-SUFFIX,mistral.ai
    - DOMAIN-SUFFIX,devv.ai
+   - DOMAIN-SUFFIX,phind.com
+   - DOMAIN-SUFFIX,forefront.ai
+   - DOMAIN-SUFFIX,anyscale.com
+   - DOMAIN-SUFFIX,dify.ai
+   - DOMAIN-SUFFIX,flowgpt.com
+   - DOMAIN-SUFFIX,openrouter.ai
+   - DOMAIN-SUFFIX,nat.dev
+   - DOMAIN-SUFFIX,civitai.com
+   - DOMAIN-SUFFIX,nvidia.com
